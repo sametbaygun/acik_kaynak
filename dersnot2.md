@@ -1,4 +1,4 @@
-[00:26, 09.04.2025] +90 538 207 58 79: 1. *Paket yöneticisi (apt) hakkında bilgi görüntülemek için kullanılan komut nedir?*  
+: 1. *Paket yöneticisi (apt) hakkında bilgi görüntülemek için kullanılan komut nedir?*  
    Komut: apt --help
 
 2. *"grep" komutuna ilişkin detaylı bilgileri görüntülemek için kullanılan komut nedir?*  
@@ -14,14 +14,14 @@
    Komut: whoami ve uptime
 
 6. *Disk kullanımını dosya bilgisiyle birlikte…
-[00:26, 09.04.2025] +90 538 207 58 79: Çıktı: /usr/local
+    : Çıktı: /usr/local
 
 9. *Sistemde sadece "b" ile başlayan gizli dosyaları görüntülemek için kullanılan komut nedir?*  
 Komut: ls -a | grep '^.b'
 
 10. *Sistemdeki dosyaları büyüklüğüne ve dosya üzerinde yapılan değişiklik tarihine göre sıralayan komut nedir?*  
  Komut: ls -lS ve ls -lt
-[00:26, 09.04.2025] +90 538 207 58 79: # Açık Kaynak İşletim Sistemi Projesi
+     : # Açık Kaynak İşletim Sistemi Projesi
 
 ## Hakkında
 Bu proje, temel komut satırı becerilerini kullanarak dokümanlar oluşturma, düzenleme, birleştirme ve yetkilendirme işlemlerini nasıl gerçekleştirebileceğinizi göstermeyi amaçlar. 
@@ -41,3 +41,17 @@ Bu proje, temel komut satırı becerilerini kullanarak dokümanlar oluşturma, d
   
 Görev 2: Dosyaların Birleştirilmesi
 Amaç: "ben.txt" ve "program.txt" dosyalarını oluşturmak, içerik eklemek ve bu dosyaları birleştirerek "birleştirme.txt" oluşturmak.
+<br>
+ 
+- *Komutlar*:
+ 
+      *cd Masaüstü
+      *touch ben.txt
+      *echo "İsim Soyisim Memleket" > ben.txt
+      *cat ben.txt
+      *touch program.txt
+      *echo "Python C++ HTML" > program.txt
+      *paste ben.txt program.txt > birleştirme.txt
+      *cat birleştirme.txt
+      *mkdir komut
+      *mv birleştirme.txt komut
