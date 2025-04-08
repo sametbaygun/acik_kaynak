@@ -1,0 +1,23 @@
+Görev 3: Yetkilendirme<br>
+Amaç: "yetki" adında bir dizin oluşturmak ve "yetkilendirme.txt" dosyasına grup ve diğer kullanıcılar için yazma yetkisi vermek.<br>
+
+
+- *Komutlar*:
+ 
+      *cd Masaüstü
+      *mkdir yetki
+      *cd yetki
+      *touch yetkilendirme.txt
+      *ls -l yetkilendirme.txt
+      *chmod 640 yetkilendirme.txt
+      *ls -l yetkilendirme.txt
+      *cd Masaüstü
+      *mkdir yetki
+      *cd yetki
+      *touch yetkilendirme.txt
+      *ls -l yetkilendirme.txt
+      *chmod 640 yetkilendirme.txt
+      *ls -l yetkilendirme.txt
+
+## Hakkında<br>
+Bu dosya, açık kaynak işletim sistemi konusundaki ödev sorularını ve çözümlerini içermektedir. Çalışma komutların işlevlerini açıklayarak temel bilgileri pekiştirmeyi amaçlar.<br>
